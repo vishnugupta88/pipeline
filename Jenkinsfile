@@ -3,7 +3,8 @@ pipeline {
     environment {
         PROJECT_ID = 'vital-charger-370111'
         CLUSTER_NAME = 'test123'
-        LOCATION = 'us-central1'
+        REASON = 'us-central1'
+        ZONE = 'us-central1-c'
         CREDENTIALS_ID = 'gke'
     }
     stages {
